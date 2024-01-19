@@ -222,7 +222,7 @@ fieldset {
   outline-offset: 2px;
 }
 
-.search-form__label:hover:has(input[type='checkbox']){
+.search-form__label:has(input[type='checkbox']):hover{
   text-decoration: underline;
 }
 
